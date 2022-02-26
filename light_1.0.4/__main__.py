@@ -1,10 +1,8 @@
 # Importing Required libraries & Modules
-import os
+from os import getcwd
 from tkinter import *
 from tkinter import messagebox
 from tkinter import filedialog
-#if you want to enable ttkthemes you can remove the hashtags with '*'s
-#*from ttkthemes import ThemedStyle
 
 # Defining TextEditor Class
 class TextEditor:
@@ -17,6 +15,13 @@ class TextEditor:
     self.root.title("light_notepad 1.0.4")
     # Window Geometry
     self.root.geometry("600x400+200+150")
+    # setting up titlebar icon
+    try:
+    # you can change the icon from changing icon.ico file
+      root.iconbitmap(os.getcwd()+"/icon.ico")
+    except:
+    # if an exception occurs
+      print("icon.ico file not found")
     # Initializing filename
     self.filename = None
     # Declaring Title variable
@@ -261,15 +266,6 @@ class TextEditor:
 
 # Creating TK Container
 root = Tk()
-#titlebar icon
-#you can change the icon from changing icon.ico file
-try:
-    root.iconbitmap(os.getcwd()+"/icon.ico")
-except:
-    print("icon.ico file not found")
-#if you want to enable ttkthemes you can remove the hashtags with '*'s
-#*style = ThemedStyle(root)
-#*style.set_theme("plastic")
 #Passing Root to TextEditor Class
 TextEditor(root)
 # Root Window Looping
