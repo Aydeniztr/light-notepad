@@ -21,7 +21,7 @@ class TextEditor:
       root.iconbitmap(getcwd()+"/icon.ico")
     except:
     # if an exception occurs
-      print("icon.ico file not found")
+      messagebox.showerror("missing file","icon.ico file not found")
     # Initializing filename
     self.filename = None
     # Declaring Title variable
@@ -30,14 +30,14 @@ class TextEditor:
     self.status = StringVar()
 
     # Creating Titlebar
-    self.titlebar = Label(self.root,textvariable=self.title,font=("calibri",10),bd=2,relief=GROOVE)
+    self.titlebar = Label(self.root,textvariable=self.title,fg="white",bg="#464600",font=("calibri",10),bd=0,relief=GROOVE)
     # Packing Titlebar to root window
     self.titlebar.pack(side=TOP,fill=BOTH)
     # Calling Settitle Function
     self.settitle()
 
     # Creating Statusbar
-    self.statusbar = Label(self.root,textvariable=self.status,font=("calibri",10),bd=2,relief=GROOVE)
+    self.statusbar = Label(self.root,textvariable=self.status,fg="white",bg="#464600",font=("calibri",10),bd=2,relief=GROOVE)
 
     # Creating Menubar
     self.menubar = Menu(self.root,font=("calibri",10),activebackground="skyblue")
@@ -45,7 +45,7 @@ class TextEditor:
     self.root.config(menu=self.menubar)
 
     # Creating File Menu
-    self.filemenu = Menu(self.menubar,font=("caliri",10),activebackground="skyblue",tearoff=0)
+    self.filemenu = Menu(self.menubar,fg="white",bg="#464600",font=("calibri",10),activebackground="skyblue",tearoff=0)
     # Adding New file Command
     self.filemenu.add_command(label="New",accelerator="Ctrl+N",command=self.newfile)
     # Adding Open file Command
@@ -62,7 +62,7 @@ class TextEditor:
     self.menubar.add_cascade(label="File", menu=self.filemenu)
 
     # Creating Edit Menu
-    self.editmenu = Menu(self.menubar,font=("calibri",10),activebackground="skyblue",tearoff=0)
+    self.editmenu = Menu(self.menubar,fg="white",bg="#464600",font=("calibri",10),activebackground="skyblue",tearoff=0)
     # Adding Cut text Command
     self.editmenu.add_command(label="Cut",accelerator="Ctrl+X",command=self.cut)
     # Adding Copy text Command
@@ -77,16 +77,18 @@ class TextEditor:
     self.menubar.add_cascade(label="Edit", menu=self.editmenu)
 
     # Creating Help Menu
-    self.helpmenu = Menu(self.menubar,font=("calibri",10),activebackground="skyblue",tearoff=0)
+    self.helpmenu = Menu(self.menubar,fg="white",bg="#464600",font=("calibri",10),activebackground="skyblue",tearoff=0)
     # Adding About Command
     self.helpmenu.add_command(label="About",command=self.infoabout)
+    # Adding Docs Command
+    self.helpmenu.add_command(label="man-pages",command=self.manpages)
     # Cascading helpmenu to menubar
     self.menubar.add_cascade(label="Help", menu=self.helpmenu)
 
     # Creating Scrollbar
     scrol_y = Scrollbar(self.root,orient=VERTICAL)
     # Creating Text Area
-    self.txtarea = Text(self.root,yscrollcommand=scrol_y.set,font=("calibri",10),state="normal",relief=GROOVE)
+    self.txtarea = Text(self.root,fg="white",bg="black",yscrollcommand=scrol_y.set,font=("calibri",10),state="normal",relief=GROOVE)
     # Packing scrollbar to root window
     scrol_y.pack(side=RIGHT,fill=Y)
     # Adding Scrollbar to text area
@@ -190,7 +192,7 @@ class TextEditor:
 
   # Defining Exit Funtion
   def exit(self,*args):
-    op = messagebox.askyesno("WARNING","Your Unsaved Data May be Lost!!")
+    op = messagebox.askyesno("","  Are you sure ?")
     if op>0:
       self.root.destroy()
     else:
@@ -263,6 +265,30 @@ class TextEditor:
     self.txtarea.bind("<Control-v>",self.paste)
     # Binding Ctrl+u to undo funtion
     self.txtarea.bind("<Control-u>",self.undo)
+
+  def manpages(self):
+     # Exception handling
+    try:
+      # Asking for file to open
+      self.filename = getcwd + "user-manual.txt"
+      # checking if filename not none
+      if self.filename:
+        # opening file in readmode
+        infile = open(self.filename,"r")
+        # Clearing text area
+        self.txtarea.delete("1.0",END)
+        # Inserting data Line by line into text area
+        for line in infile:
+          self.txtarea.insert(END,line)
+        # Closing the file  
+        infile.close()
+        # Calling Set title
+        self.settitle()
+        # Updating Status
+        self.status.set("Opened Successfully")
+    except Exception as e:
+      messagebox.showerror("Exception",e)
+    
 
 # Creating TK Container
 root = Tk()
