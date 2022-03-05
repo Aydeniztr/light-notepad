@@ -293,7 +293,7 @@ class TextEditor:
   def license(self):
     try:
       # Asking for file to open
-      self.filename = getcwd()+"/LICENSE.txt"
+      self.filename = getcwd()+"/LICENSE"
       # checking if filename not none
       if self.filename:
         # opening file in readmode
