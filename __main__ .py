@@ -29,7 +29,7 @@ class TextEditor:
     # Declaring Status variable
     self.status = StringVar()
 
-    # Creating Titlebar
+    # Creating Titlebar 
     self.titlebar = Label(self.root,textvariable=self.title,fg="white",bg="#272727",font=("calibri",10),bd=0,relief=GROOVE)
     # Packing Titlebar to root window
     self.titlebar.pack(side=TOP,fill=BOTH)
