@@ -14,7 +14,7 @@ class TextEditor:
     # Title of the window
     self.root.title("light_notepad 1.0.4")
     # Window Geometry
-    self.root.geometry("600x400+200+150")
+    self.root.geometry("600x400")
     # setting up titlebar icon
     try:
     # you can change the icon from changing icon.ico file
@@ -75,6 +75,13 @@ class TextEditor:
     self.editmenu.add_command(label="Undo",accelerator="Ctrl+U",command=self.undo)
     # Cascading editmenu to menubar
     self.menubar.add_cascade(label="Edit", menu=self.editmenu)
+
+    # Creating Upload Menu
+    self.upload = Menu(self.menubar,fg="white",bg="#272727",font=("calibri",10),activebackground="skyblue",tearoff=0)
+    # Adding licence Command
+    self.upload.add_command(label="Upload-to-0x0.st",command=self.uploadf)
+    # Cascading helpmenu to menubar
+    self.menubar.add_cascade(label="Upload", menu=self.upload)
 
     # Creating Help Menu
     self.helpmenu = Menu(self.menubar,fg="white",bg="#272727",font=("calibri",10),activebackground="skyblue",tearoff=0)
@@ -267,7 +274,9 @@ class TextEditor:
     self.txtarea.bind("<Control-v>",self.paste)
     # Binding Ctrl+u to undo funtion
     self.txtarea.bind("<Control-u>",self.undo)
-
+    # Binding Ctrl+l to upload funtion
+    self.txtarea.bind("<Control-l>",self.uploadf)
+    
   def pages(self):
     try:
       # Asking for file to open
@@ -312,11 +321,35 @@ class TextEditor:
     except Exception as e:
       messagebox.showerror("Exception",e)
 
+  def uploadf(self):
+    # Reading the data from text area
+    data = self.txtarea.get("1.0",END)
+    # opening File in write
+    outfile = open("untitledfile","w")
+    # Writing Data into file
+    outfile.write(data)
+    # Closing File
+    outfile.close()
+    try:
+      from requests import post
+    except:
+      messagebox.showerror("Exception","requests module not found !")
+    url = "http://0x0.st/"
+    files = {"file": open("untitledfile", "rb")}
+
+    r = post(url, files=files)
+    print(r.text)
+    self.title.set(r.text.replace("\n",""))
+    messagebox.showinfo("file-destination",r.text.replace("\n",""))
+
 # Creating TK Container
 root = Tk()
 #Passing Root to TextEditor Class
 TextEditor(root)
 # Root Window Looping
 root.mainloop()
+
+
+
 
 
