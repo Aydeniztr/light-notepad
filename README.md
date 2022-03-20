@@ -19,4 +19,9 @@ to do list:
 
 * add interactive and read only mode like in the vi
 
+notes:
+
+* you can change the menubar color but if your de supports it you need to try it
+
 </pre>
+
