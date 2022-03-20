@@ -24,7 +24,8 @@ notes:
 * you can change the menubar color but if your de supports it you need to try it
 
 *The only module you need to install to upload files is 'requests' , I might make the
-same function using urllib if I have some spare time .
+same function using urllib so you don't need to install anything more than this python
+program.
 
 </pre>
 
