@@ -5,7 +5,7 @@
 <pre>
 to do:
 
-make themes
-add interactive and read only mode controlled by shortcuts
+* make themes
+* add interactive and read only mode like in the vi
 
 </pre>
