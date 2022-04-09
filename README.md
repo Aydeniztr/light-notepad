@@ -4,10 +4,9 @@
 
 ## README Map
 
-<a>https://github.com/Aydeniztr/light-notepad#README-Map</a>
-<a>https://github.com/Aydeniztr/light-notepad#to-do-list</a>
-<a>https://github.com/Aydeniztr/light-notepad#to-do-list</a>
- 
+<a href="#README-Map">README Map</a>
+<a href="#to-do-list">to do list</a>
+<a href="#themes">themes</a>
 
 ## to do list
 
