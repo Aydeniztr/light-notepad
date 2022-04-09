@@ -16,13 +16,13 @@
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
  
- ### Grey/blue
- 
- coming soon...
- 
  ### Slashdot
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5644.jpeg?raw=true">
+ 
+ ### Grey/blue
+ 
+ coming soon...
  
  ### Solaris
  
