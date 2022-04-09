@@ -34,7 +34,5 @@ program.
 ```
 
 <p align="center">
- 
- <a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md">Themes</a>
-
+<a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md">Themes</a>
 </p>
