@@ -19,7 +19,7 @@ to do list:
  8.Slashdot
  9.grey/blue
  10.1337
- 11.nano colors
+ 11.nano colors (dark.pyw)
  
 * add interactive and read only mode like in the vi
 
