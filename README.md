@@ -2,9 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Aydeniztr/light-notepad/main/images/IMG_5635.jpg">
 
-
-* <a href="#to-do-list">to do list</a>
-* <a href="#themes">themes</a>
+* <a href="https://github.com/Aydeniztr/light-notepad/main/THEMES.md">themes</a>
 
 ## to do list
 
