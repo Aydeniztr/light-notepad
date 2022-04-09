@@ -2,6 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Aydeniztr/light-notepad/main/images/IMG_5635.jpg">
 
+
 ```
 
 to do list:
@@ -19,10 +20,7 @@ to do list:
  9.grey/blue
  10.1337
  11.nano colors
-
- <a src="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md"><h2>here are the themes</h2></a>
  
-
 * add interactive and read only mode like in the vi
 
 notes:
