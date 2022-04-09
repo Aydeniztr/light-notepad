@@ -2,9 +2,9 @@
 
 <img src="https://raw.githubusercontent.com/Aydeniztr/light-notepad/main/images/IMG_5635.jpg">
 
-## README Map
+## readme map
 
-* <a href="#README-Map">README Map</a>
+* <a href="#readme-map">readme map</a>
 * <a href="#to-do-list">to do list</a>
 * <a href="#themes">themes</a>
 
