@@ -1,12 +1,12 @@
 # themes 
  
- ### 1337
- 
- <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5647.jpeg?raw=true">
- 
  ### Dark(nano style)
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
+ 
+ ### 1337
+ 
+ <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5647.jpeg?raw=true">
  
  ### Slashdot
  
