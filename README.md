@@ -33,9 +33,13 @@ program.
 
 ## themes 
 
- #Solaris
+ ## Solaris
  
- #Redux
+ coming soon...
+ 
+ ## Redux
+ 
+ coming soon...
  
  ### Satellite
  
@@ -44,9 +48,14 @@ program.
  ### RiscOs colors
   
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5645.jpeg?raw=true">
- #Purple
  
- #Olive
+ ## Purple
+ 
+ coming soon...
+ 
+ ## Olive
+ 
+ coming soon...
  
  ### 1337
  
@@ -56,8 +65,9 @@ program.
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
  
- #Grey/blue
+ ## Grey/blue
  
+ coming soon...
  
  ### Slashdot
  
