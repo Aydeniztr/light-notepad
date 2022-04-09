@@ -4,9 +4,9 @@
 
 ## README Map
 
-<a href="#README-Map">README Map</a>
-<a href="#to-do-list">to do list</a>
-<a href="#themes">themes</a>
+1. <a href="#README-Map">README Map</a>
+2. <a href="#to-do-list">to do list</a>
+3. <a href="#themes">themes</a>
 
 ## to do list
 
