@@ -20,7 +20,7 @@ to do list:
  10.1337
  11.nano colors
 
- <a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md"><h2>here are the themes</h2></a>
+ <a src="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md"><h2>here are the themes</h2></a>
  
 
 * add interactive and read only mode like in the vi
