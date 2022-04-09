@@ -29,3 +29,35 @@ program.
 
 </pre>
 
+## themes 
+
+ #Solaris
+ 
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5645.jpeg?raw=true">
+ 
+ #Redux
+ 
+ #Satellite
+ 
+ <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5648.jpeg?raw=true">
+ 
+ #RiscOs colors
+ 
+ #Purple
+ 
+ #Olive
+ 
+ #1337
+ 
+  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5647.jpeg?raw=true">
+ 
+ #Dark(nano style)
+ 
+ <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
+ 
+ #Grey/blue
+ 
+ 
+ #Slashdot
+ 
+ <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5644.jpeg?raw=true">
