@@ -1,9 +1,6 @@
 # light-notepad 1.0.4
 
 <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
-<p align="center">
-<a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md">See more</a>
-</p>
 
 ```
 
@@ -34,3 +31,7 @@ same function using urllib so you don't need to install anything more than this 
 program.
 
 ```
+
+<p align="center">
+<a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md">See more</a>
+</p>
