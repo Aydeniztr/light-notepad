@@ -1,12 +1,4 @@
 ## themes 
-
- ### Solaris
- 
- coming soon...
- 
- ### Redux
- 
- coming soon...
  
  ### Satellite
  
@@ -15,14 +7,6 @@
  ### RiscOs colors
   
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5645.jpeg?raw=true">
- 
- ### Purple
- 
- coming soon...
- 
- ### Olive
- 
- coming soon...
  
  ### 1337
  
@@ -39,3 +23,19 @@
  ### Slashdot
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5644.jpeg?raw=true">
+ 
+ ### Solaris
+ 
+ coming soon...
+ 
+ ### Redux
+ 
+ coming soon...
+ 
+ ### Purple
+ 
+ coming soon...
+ 
+ ### Olive
+ 
+ coming soon...
