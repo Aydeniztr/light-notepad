@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/Aydeniztr/light-notepad/main/images/IMG_5635.jpg">
 
-<pre>
+```
 
 to do list:
 
@@ -29,7 +29,7 @@ notes:
 same function using urllib so you don't need to install anything more than this python
 program.
 
-<\pre>
+```
 
 ## themes 
 
