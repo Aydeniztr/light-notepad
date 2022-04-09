@@ -33,11 +33,11 @@ program.
 
 ## themes 
 
- ## Solaris
+ ### Solaris
  
  coming soon...
  
- ## Redux
+ ### Redux
  
  coming soon...
  
@@ -49,11 +49,11 @@ program.
   
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5645.jpeg?raw=true">
  
- ## Purple
+ ### Purple
  
  coming soon...
  
- ## Olive
+ ### Olive
  
  coming soon...
  
@@ -65,7 +65,7 @@ program.
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
  
- ## Grey/blue
+ ### Grey/blue
  
  coming soon...
  
