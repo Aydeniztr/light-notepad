@@ -32,5 +32,5 @@ program.
 
 ```
 
-<a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md"><h1>here are the themes<\h1</a>
+<a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md"><h2>here are the themes</h2</a>
 
