@@ -2,8 +2,6 @@
 
 <img src="https://raw.githubusercontent.com/Aydeniztr/light-notepad/main/images/IMG_5635.jpg">
 
-<a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md">themes</a>
-
 ```
 
 to do list:
@@ -33,3 +31,6 @@ same function using urllib so you don't need to install anything more than this 
 program.
 
 ```
+
+<a href="https://github.com/Aydeniztr/light-notepad/blob/main/THEMES.md">here are the themes</a>
+
