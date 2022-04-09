@@ -1,6 +1,6 @@
 # light-notepad 1.0.4
 
-<img src="https://raw.githubusercontent.com/Aydeniztr/light-notepad/main/images/IMG_5635.jpg">
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
 
 
 ```
