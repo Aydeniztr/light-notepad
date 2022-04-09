@@ -33,8 +33,6 @@ program.
 
  #Solaris
  
-<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5645.jpeg?raw=true">
- 
  #Redux
  
  #Satellite
@@ -42,7 +40,8 @@ program.
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5648.jpeg?raw=true">
  
  #RiscOs colors
- 
+  
+ <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5645.jpeg?raw=true">
  #Purple
  
  #Olive
