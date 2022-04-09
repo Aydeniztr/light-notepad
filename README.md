@@ -35,28 +35,28 @@ program.
  
  #Redux
  
- #Satellite
+ # Satellite
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5648.jpeg?raw=true">
  
- #RiscOs colors
+ # RiscOs colors
   
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5645.jpeg?raw=true">
  #Purple
  
  #Olive
  
- #1337
+ # 1337
  
   <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5647.jpeg?raw=true">
  
- #Dark(nano style)
+ # Dark(nano style)
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5646.jpeg?raw=true">
  
  #Grey/blue
  
  
- #Slashdot
+ # Slashdot
  
  <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/IMG_5644.jpeg?raw=true">
