@@ -4,7 +4,10 @@
 
 ## README Map
 
-
+<a>https://github.com/Aydeniztr/light-notepad/edit/main/README.md#</a>
+<a>https://github.com/Aydeniztr/light-notepad/edit/main/README.md#</a>
+<a>https://github.com/Aydeniztr/light-notepad/edit/main/README.md#</a>
+ 
 
 ## to do list
 
