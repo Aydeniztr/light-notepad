@@ -2,6 +2,8 @@
 
 <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Screen_shot.png?raw=true">
 
+light-notepad is a nice text editor to code on it and Its very easy to configure and modify it as how you want .
+
 ```
 
 to do list:
