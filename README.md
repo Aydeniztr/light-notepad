@@ -6,9 +6,9 @@ light-notepad is a nice text editor to code on and Its very easy to configure an
 (shortcuts,themes,etc.)
 </pre>
 
-<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Screen_shot.png?raw=true">
-
 <a href="https://github.com/Aydeniztr/light-notepad/blob/main/theme_examples.md">See more<a>
+
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Screen_shot.png?raw=true">
 
 ```
 
