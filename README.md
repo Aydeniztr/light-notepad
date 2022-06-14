@@ -8,9 +8,9 @@ light-notepad is a nice text editor to code on and Its very easy to configure an
 
 <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Screen_shot.png?raw=true">
 
-```
+<a href="https://github.com/Aydeniztr/light-notepad/blob/main/theme_examples.md">See more<a>
 
-<a href="">See more<a>
+```
 
 to do list:
 
