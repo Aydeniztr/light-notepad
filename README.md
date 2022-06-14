@@ -1,6 +1,6 @@
 # light-notepad 1.0.4
 
-<h4>light-notepad is a nice text editor to code on and Its very easy to configure and modify.(shortcuts,themes,etc.)</h4>
+<pre>light-notepad is a nice text editor to code on and Its very easy to configure and modify.(shortcuts,themes,etc.)</pre>
 
 <img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Screen_shot.png?raw=true">
 
