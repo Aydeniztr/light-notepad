@@ -1,3 +1,5 @@
+<pre>
+
 #1337
 
 ############## configuration ###############
@@ -400,3 +402,36 @@ txtarea_cursor_color="#574b7c"
 uploading_destination="https://0x0.st"
 
 ############################################
+
+#Retro
+
+############## configuration ###############
+
+titlebar_fg="#272727"
+titlebar_bg="lightgrey"
+titlebar_font=("calibri",10)
+titlebar_bd=2
+
+statusbar_fg="#272727"
+statusbar_bg="white"
+statusbar_font=("calibri",10)
+statusbar_bd=2
+
+menubar_font=("calibri",10)
+menubar_activebackground="skyblue"
+
+menuspecs_fg="#272727"
+menuspecs_bg="white"
+menuspecs_font=("calibri",10)
+menuspecs_activebackground="skyblue"
+
+txtarea_fg="lightgreen"
+txtarea_bg="#093145"
+txtarea_font=("Fixedsys",10)
+txtarea_cursor_color="#dcdcde"
+
+uploading_destination="https://0x0.st"
+
+############################################
+
+</pre>
