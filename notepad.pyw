@@ -1,28 +1,28 @@
 
 ############## configuration ###############
 
-titlebar_fg="white"
-titlebar_bg="#272727"
+titlebar_fg="#272727"
+titlebar_bg="lightgrey"
 titlebar_font=("calibri",10)
-titlebar_bd=0
+titlebar_bd=2
 
-statusbar_fg="white"
-statusbar_bg="#272727"
+statusbar_fg="#272727"
+statusbar_bg="white"
 statusbar_font=("calibri",10)
 statusbar_bd=2
 
 menubar_font=("calibri",10)
 menubar_activebackground="skyblue"
 
-menuspecs_fg="white"
-menuspecs_bg="#272727"
+menuspecs_fg="#272727"
+menuspecs_bg="white"
 menuspecs_font=("calibri",10)
 menuspecs_activebackground="skyblue"
 
-txtarea_fg="white"
-txtarea_bg="black"
-txtarea_font=("calibri",10)
-txtarea_cursor_color="white"
+txtarea_fg="lightgreen"
+txtarea_bg="#093145"
+txtarea_font=("Fixedsys",10)
+txtarea_cursor_color="#dcdcde"
 
 uploading_destination="https://0x0.st"
 
@@ -32,10 +32,12 @@ uploading_destination="https://0x0.st"
 
 from os import getcwd
 from os import system
-from os import name
+from os import remove
 from os import execl
-from sys import argv
+from os import path
+from os import name
 from sys import executable
+from sys import argv
 from tkinter import *
 from tkinter import messagebox
 from tkinter import filedialog
@@ -3018,7 +3020,7 @@ class TextEditor:
     self.status = StringVar()
 
     # Creating Titlebar 
-    self.titlebar = Label(self.root,textvariable=self.title,fg=titlebar_fg,bg=titlebar_bg,font=titlebar_font,bd=titlebar_bd,relief=GROOVE)
+    self.titlebar = Label(self.root,textvariable=self.title,fg=titlebar_fg,bg=titlebar_bg,font=titlebar_font,bd=titlebar_bd,relief=SOLID)
     # Packing Titlebar to root window
     self.titlebar.pack(side=TOP,fill=BOTH)
     # Calling Settitle Function
@@ -3084,13 +3086,16 @@ class TextEditor:
     # Cascading helpmenu to menubar
     self.menubar.add_cascade(label="Other", menu=self.helpmenu)
 
-    # Creating Scrollbar
+    # Creating Scrollbars
+    scrol_x = Scrollbar(self.root,orient=HORIZONTAL)
     scrol_y = Scrollbar(self.root,orient=VERTICAL)
     # Creating Text Area
-    self.txtarea = Text(self.root,fg=txtarea_fg,bg=txtarea_bg,insertbackground=txtarea_cursor_color,yscrollcommand=scrol_y.set,font=txtarea_font,state="normal",relief=GROOVE)
-    # Packing scrollbar to root window
+    self.txtarea = Text(self.root,wrap="none",fg=txtarea_fg,bg=txtarea_bg,insertbackground=txtarea_cursor_color,yscrollcommand=scrol_y.set,xscrollcommand=scrol_x.set,font=txtarea_font,state="normal",relief=GROOVE)
+    # Packing scrollbars to root window
+    scrol_x.pack(side=BOTTOM,fill=X)
     scrol_y.pack(side=RIGHT,fill=Y)
-    # Adding Scrollbar to text area
+    # Adding Scrollbars to text area
+    scrol_x.config(command=self.txtarea.xview)
     scrol_y.config(command=self.txtarea.yview)
     # Packing Text Area to root window
     self.txtarea.pack(fill=BOTH,expand=1)
@@ -3198,16 +3203,16 @@ class TextEditor:
       return
 
   # Defining Cut function
+  def paste(self,*args):
+    self.txtarea.event_generate("<<Paste>>")
+
+  # Defining Cut function
   def cut(self,*args):
     self.txtarea.event_generate("<<Cut>>")
 
   # Defining Copy function
   def copy(self,*args):
           self.txtarea.event_generate("<<Copy>>")
-
-  # Defining Paste function
-  def paste(self,*args):
-    self.txtarea.event_generate("<<Paste>>")
 
   # Defining Undo function
   def undo(self,*args):
@@ -3260,8 +3265,6 @@ class TextEditor:
     self.txtarea.bind("<Control-x>",self.cut)
     # Binding Ctrl+c to copy function
     self.txtarea.bind("<Control-c>",self.copy)
-    # Binding Ctrl+v to paste function
-    self.txtarea.bind("<Control-v>",self.paste)
     # Binding Ctrl+u to undo function
     self.txtarea.bind("<Control-u>",self.undo)
     # Binding Ctrl+l to upload function
@@ -3323,12 +3326,17 @@ class TextEditor:
     except:
       messagebox.showerror("Exception","requests module not found !")
     url = uploading_destination
-    files = {"file": open("untitledfile", "rb")}
-
+    x = open("untitledfile", "rb")
+    files = {"file": x}
     r = post(url, files=files)
     print(r.text)
     self.title.set(r.text.replace("\n",""))
     messagebox.showinfo("file-destination",r.text.replace("\n",""))
+    x.close()
+    if path.isfile("untitledfile"):
+      remove("untitledfile")
+    else:
+      messagebox.showinfo("this is not file","something went wrong I think .d")
 
 # Creating TK Container
 root = Tk()
@@ -3336,29 +3344,3 @@ root = Tk()
 TextEditor(root)
 # Root Window Looping
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
