@@ -10,6 +10,8 @@ light-notepad is a nice text editor to code on and Its very easy to configure an
 
 ```
 
+<a href="">See more<a>
+
 to do list:
 
 * add interactive and read only mode like in the vi
