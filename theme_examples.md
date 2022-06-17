@@ -198,7 +198,7 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
-<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Red_on_Blue.png?raw=true">
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Red_On_Blue.png?raw=true">
 
 #Red on blue
 
@@ -297,7 +297,7 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
-<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/1337.png?raw=true">
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Gentoo_Linux_Color_theme.png">
 
 #Gentoo linux color theme
 
