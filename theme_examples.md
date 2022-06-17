@@ -33,7 +33,7 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
-<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/RiscOS.png?raw=true">
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Riscos.png?raw=true">
 
 #RiscOS
 
