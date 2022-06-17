@@ -1,6 +1,6 @@
 <pre>
 
-<img src="">
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/1337.png?raw=true">
 
 #1337
 
@@ -33,6 +33,8 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/RiscOS.png?raw=true">
+
 #RiscOS
 
 ############## configuration ###############
@@ -63,6 +65,8 @@ txtarea_cursor_color="#363636"
 uploading_destination="https://0x0.st"
 
 ############################################
+
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Satellite.png?raw=true">
 
 #Satellite
 
@@ -95,6 +99,8 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Slashdot.png?raw=true">
+
 #Slashdot
 
 ############## configuration ###############
@@ -125,6 +131,8 @@ txtarea_cursor_color="white"
 uploading_destination="https://0x0.st"
 
 ############################################
+
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Dark.png?raw=true">
 
 Dark(nano style)
 
@@ -157,6 +165,8 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Amber.png?raw=true">
+
 #Amber
 
 ############## configuration ###############
@@ -187,6 +197,8 @@ txtarea_cursor_color="#FF5349"
 uploading_destination="https://0x0.st"
 
 ############################################
+
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/1337.png?raw=true">
 
 #Red on blue
 
@@ -219,7 +231,9 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
-sand
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Sand.png?raw=true">
+
+Sand
 
 ############## configuration ###############
 
@@ -249,6 +263,8 @@ txtarea_cursor_color="white"
 uploading_destination="https://0x0.st"
 
 ############################################
+
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Castelvania.png?raw=true">
 
 #Castelvania
 
@@ -281,6 +297,8 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/1337.png?raw=true">
+
 #Gentoo linux color theme
 
 ############## configuration ###############
@@ -312,7 +330,9 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
-#khaki
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Khaki.png?raw=true">
+
+#Khaki
 
 ############## configuration ###############
 
@@ -342,6 +362,8 @@ txtarea_cursor_color="#574b7c"
 uploading_destination="https://0x0.st"
 
 ############################################
+
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Obsidian.png?raw=true">
 
 #Obsidian
 
@@ -374,6 +396,8 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/HotFudgeSundae.png?raw=true">
+
 #HotFudgeSundae
 
 ############## configuration ###############
@@ -404,6 +428,8 @@ txtarea_cursor_color="#574b7c"
 uploading_destination="https://0x0.st"
 
 ############################################
+
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Retro.png?raw=true">
 
 #Retro
 
