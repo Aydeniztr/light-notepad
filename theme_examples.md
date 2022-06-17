@@ -198,7 +198,7 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
-<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/1337.png?raw=true">
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Red_on_Blue.png?raw=true">
 
 #Red on blue
 
@@ -264,9 +264,9 @@ uploading_destination="https://0x0.st"
 
 ############################################
 
-<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Castelvania.png?raw=true">
+<img src="https://github.com/Aydeniztr/light-notepad/blob/main/images/Castlevania.png?raw=true">
 
-#Castelvania
+#Castlevania
 
 ############## configuration ###############
 
